@@ -1,16 +1,30 @@
-
+/* Ini File CSS */
 main {
     display: flex ;
     gap: 32px;
     padding: 32px;
+    background-color:hsl(196, 100%, 86%);
+    position:relative;
+    font-family: arial;
+    text-shadow: 1px black;
+    
 }
 
 .main-header {
     text-align: center;
+    background-color: rgb(38, 38, 189);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 16px;
+    font-family:sans-serif;
 }
 
 footer {
     text-align: center;
+    background-color: rgb(38, 38, 189);
+    padding-bottom: 16px;
+    color:white;
+
 }
 
 input[type=number]{
@@ -27,15 +41,16 @@ input[type=number]{
 }
 
 form {
-    background-color: antiquewhite;
+    background-color:#4a4aff;
     padding: 32px;
+    color:white;
 }
 
 button {
     border: none;
     padding: 8px;
     background-color: cadetblue;
-    color: antiquewhite;
+    color: white;
 }
 
 .bg-black{
@@ -49,10 +64,12 @@ button {
 .result-section{
     padding: 16px;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: #4a4aff;
+    color: white;
 }
 
 #result-bmi {
     font-size: xxx-large;
     font-family: math;
 }
+
