@@ -29,14 +29,14 @@
             <p>  Mari kita hitung di Kalkutor BMI dengan menginput berat badan, usia, dan, tinggi badan.</p>
         </article>
 
-        <!-- Form -->
-         <form id="bmi-form">
-                <div class="form-group">
-                    <input type="radio" id="pria" name="gender" value="pria">
-                    <label for="pria">Pria</label>
-                    <input type="radio" id="wanita" name="gender" value="wanita">
-                    <label for="wanita">Wanita</label>
+        <!-- Form Isi Input (Jenis Kelamin, Berat badan, Usia, Tinggi Badan) -->
+        <form id="bmi-form">
+                <div>
+                    <p>Jenis Kelamin</p>
+                    <input type="radio" id="pria" name="gender" value="pria"><label for="pria">Pria</label>
+                    <input type="radio" id="wanita" name="gender" value="wanita"><label for="wanita">Wanita</label>
                 </div>
+                <br>
 
                 <div class="form-group">
                     <label for="input-berat-badan">Berat Badan (kg)</label>
@@ -59,7 +59,7 @@
                 </div>
          </form>
 
-         <!-- Feature Information -->
+         <!-- Feature Information (Informasi dari Fitur Program Kalkulator BMI) -->
          <article>
             <header>
                 <h2>Feature Information</h2>
@@ -68,6 +68,7 @@
             <p>
             <ol>
                 <li>Dapat menghitung berat badan</li>
+                <li>Dapar mengetahui nilai BMI (Indeks Massa Tubuh)</li>
                 <li>Menentukan kategori berat badan ideal atau tidak</li>
                 <li>Mempersiapkan program untuk menurunkan berat badan</li>
             </ol>
@@ -98,15 +99,19 @@
             <span id="result-bmi">0</span>
         </div>
 
+        
+        <div id="bmi-category"></div>
+        <div id="bmi-suggestion"></div>
        </section>
         <article>
-            <p> 
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
-                but also the leap into electronic typesetting, remaining essentially unchanged. 
-                It was popularised in the 1960s with the release of Letraset sheets containing 
-                Lorem Ipsum passages, and more recently with desktop publishing software 
-                like Aldus PageMaker including versions of Lorem Ipsum.
+            <p class="interpretation section"> 
+                INTERPRETASI BMI
+                <ol>
+                    <li> Kurang dari 18.5     = Kekurangan Berat Badan </li>
+                    <li> 18-5.24.9            = Normal (ideal)</li> 
+                    <li> 25.0 - 29.9          = Kelebihan berat badan </li> 
+                    <li> 30.0 atau lebih      = Kegemukan (Obesitas)</li> 
+                </ol>
             </p>
 
             <p> 

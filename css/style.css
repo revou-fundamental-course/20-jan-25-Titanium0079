@@ -1,12 +1,13 @@
 /* Ini File CSS */
 main {
     display: flex ;
-    gap: 32px;
+    gap: 64px;
     padding: 32px;
     background-color:hsl(196, 100%, 86%);
     position:relative;
     font-family: arial;
     text-shadow: 1px black;
+    font-family:sans-serif;
     
 }
 
@@ -22,9 +23,10 @@ main {
 footer {
     text-align: center;
     background-color: rgb(38, 38, 189);
-    padding-bottom: 16px;
+    padding-bottom: 32px;
     color:white;
-
+    font-size: 30px;
+    font-family:sans-serif;
 }
 
 input[type=number]{
