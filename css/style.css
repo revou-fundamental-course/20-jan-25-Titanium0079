@@ -75,3 +75,10 @@ button {
     font-family: math;
 }
 
+p.interpretation-section{
+    color:red;
+}
+
+p.penyakit-dari-kegemukan{
+    color:red;
+}
