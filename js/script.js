@@ -26,13 +26,13 @@ function calculateBMI() {
         suggestion = "Saran: Naikkan berat badan Anda dengan pola makan yang sehat dan konsultasi dengan ahli gizi.";
     } else if (bmi >= 18.5 && bmi <= 24.9) {
         category = "Normal (Ideal)";
-        suggestion = "Saran: Pertahankan berat badan Anda dengan pola makan sehat dan rutin berolahraga.";
+        suggestion = "Saran: Pertahankan berat badan Anda dengan menjaga pola makan sehat dan rutin berolahraga.";
     } else if (bmi >= 25.0 && bmi <= 29.9) {
         category = "Kelebihan Berat Badan";
-        suggestion = "Saran: Kurangi berat badan Anda dengan diet yang tepat dan olahraga teratur.";
+        suggestion = "Saran: Kurangi berat badan Anda dengan menerapkan pola makan sehat, diet, dan olahraga teratur.";
     } else if (bmi >= 30.0) {
         category = "Obesitas";
-        suggestion = "Saran: Konsultasikan dengan dokter atau ahli gizi untuk menentukan program penurunan berat badan yang tepat.";
+        suggestion = "Saran: Terapkan pola makan sehat, perhatikan konsumsi harian, dan, olahraga secara teratur, Konsultasikan dengan Dokter atau Ahli Gizi untuk program diet atau jika memiliki kondisi kesehatan tertentu.";
     }
 
     // Menampilkan kategori BMI
